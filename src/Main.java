@@ -21,7 +21,7 @@ public class Main {
 
         PaymentStrategy creditCardPayment3 = new CreditCardPayment("9882349319", "lara");
         PaymentStrategy bitcoinPayment3 = new BitcoinPayment("7yhtgjkf2lara");
-        cus3.makePayment(creditCardPayment, 40.30);
+        cus3.makePayment(creditCardPayment3, 40.30);
         cus3.makePayment(bitcoinPayment3, 600.23);
 
         System.out.println("\nPayment History of Sara(regular):\n");
